@@ -81,5 +81,4 @@ AP3 is licensed under the ./LICENSE.
 **Contact**  
 
 For questions about the AP3 protocol: open an issue in this repository.
-For security vulnerabilities: see ./SECURITY.md.
 For enterprise integration and support: contact Silence Laboratories at info@silencelabratories.com
