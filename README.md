@@ -12,8 +12,8 @@ When two agents exchange sensitive data inside an A2A message today, the receivi
 A2A just governs how agents communicate. They don’t govern how the data is processed or what is shared. There is no cryptographic guarantee of non-exposure. It cannot promise: 
 
 1. That the agent did not read your private data
-2. That LSP did not store your private data
-3. That HDFC did not share your private data with a third party
+2. That the agent did not store your private data
+3. That agent did not share your private data with a third party
 4. That the user agent did not send more data than necessary
 5. That either party behaved honestly with what they received
 
