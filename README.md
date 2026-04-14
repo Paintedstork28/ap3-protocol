@@ -17,7 +17,7 @@ A2A just governs how agents communicate. They don’t govern how the data is pro
 4. That the user agent did not send more data than necessary
 5. That either party behaved honestly with what they received
 
-Enter AP3. When sensitive data is exchanged inside an A2A message — income, identity, budget, pricing - AP3 intercepts the payload, runs the required computation across encrypted inputs, and returns a verifiable result to the receiving agent. The receiving agent gets what it needs to make a decision. It never gets the data itself.
+Enter AP3. When sensitive data is exchanged inside an A2A message, such as income, identity, budget, pricing, AP3 intercepts the payload, runs the required computation across encrypted inputs, and returns a verifiable result to the receiving agent. The receiving agent gets what it needs to make a decision. It never gets the data itself.
 
 ## **AP3 can promise:** 
 
