@@ -55,7 +55,8 @@ AP3 and AP2 are sequenced, not competing. AP3 protects the data being negotiated
 2. Route matching: Truckers match space capacity on pre-existing routes without revealing entire capacity and schedules. Real world problem statement we are working on today
 3. Joint procurement: Two companies co-buy for volume discounts without revealing individual volumes                                                                                                                                                                                 
 # **Key Properties**                          
-                                                                                                                                              1. No raw data exposure — The receiving agent never sees the underlying data. AP3 returns an output, which can be binary in nature (yes / no), some price (if price negotiation), or some terms (loan terms if BNPL use case)                                                           2. Cryptographic audit trail — Every computation produces a signed record confirming what was computed, by whom, under what consent, and what was returned.
+
+1. No raw data exposure — The receiving agent never sees the underlying data. AP3 returns an output, which can be binary in nature (yes / no), some price (if price negotiation), or some terms (loan terms if BNPL use case)                                                           2. Cryptographic audit trail — Every computation produces a signed record confirming what was computed, by whom, under what consent, and what was returned.
 3. No changes to existing infrastructure — AP3 works with existing A2A-compliant agents via SDK integration. It just requires the developer to integrate with the AP3 SDK at the time of agent set up, update it on the Agent Card, and create rules on what constitutes as "sensitive" data in order to invoke AP3
 4. Interoperable — Compatible with any A2A-compliant agent and integrates with AP2-enabled payment flows. Built to be payment protocol and agent platform agnostic. 
 
@@ -65,7 +66,8 @@ AP3 and AP2 are sequenced, not competing. AP3 protects the data being negotiated
 2. Zero Knowledge Proofs (ZKP) — Proves the output of computation is correct without revealing the inputs to the verifier.
 
 # **Project Status**                                            
-                                                                                                                                            AP3 is at specification stage. XX
+
+AP3 is at specification stage. XX
 
 ## **SDK implementations are in development**
                                                                                                                                             
